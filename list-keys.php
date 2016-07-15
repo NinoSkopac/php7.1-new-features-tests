@@ -27,3 +27,14 @@ new NationalFoods(
         'usa' => 'Burgers'
     ]
 );
+
+/*
+Output
+
+Array
+(
+    [thailand] => Pad Thai
+    [uk] => Fish and Chips
+    [usa] => Burgers
+)
+*/
