@@ -41,7 +41,7 @@ class AssociativeArrayIterator implements Iterator {
     }
     
     public function valid() : bool {
-        return isset($this->array[$this->key()]) ? true : false;
+        return isset($this->array[$this->key()]);
     }
 }
 
