@@ -46,3 +46,18 @@ class AssociativeArrayIterator implements Iterator {
 }
 
 print_r(returnNumericArray(new AssociativeArrayIterator($array)));
+
+/*
+Output
+
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+Array
+(
+    [0] => 1
+    [1] => 2
+)
+*/
